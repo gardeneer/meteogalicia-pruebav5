@@ -1,0 +1,24 @@
+{
+    "name": "parafusodixital/meteogalicia-apiv5",
+    "description": "Small API to get rain amount in Galicia from Meteogalicia using API v5",
+    "type": "library",
+    "require": {
+        "php-curl-class/php-curl-class": "^12.0"
+    },
+    "require-dev": {
+        "php-curl-class/php-curl-class": "^12.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Parafusodixital\\MeteogaliciaApiv5\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Parafuso Dixital SLU",
+            "email": "contacto@parafusodixital.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
